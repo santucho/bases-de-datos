@@ -22,10 +22,10 @@
 <engineerTo>
 <item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<domain>D2F52CB7-5A60-C2CB-550A-2FDF3D202E3F</domain>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="contrasena" id="917C3CDF-26F4-75EA-9052-3F737C3E585B">

@@ -13,10 +13,10 @@
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>DA850739-F679-F094-AE6A-F8FDF2D1AD5F</generatorID>
 <ownerDesignName>data</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<domain>D2F52CB7-5A60-C2CB-550A-2FDF3D202E3F</domain>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

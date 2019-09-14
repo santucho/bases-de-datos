@@ -6,6 +6,7 @@
 <engineerTo>
 <item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
 </engineerTo>
+<deprecated>true</deprecated>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -26,6 +27,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="P" description="Peticion"/>
+<valueDef value="Q" description="Queja"/>
+<valueDef value="R" description="Reclamo"/>
+<valueDef value="S" description="Sugerencia"/>
+</listOfValues>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="asunto" id="DA70997A-6DBE-D980-BD8F-0FB09363E3C1">
@@ -79,6 +86,32 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="tipo_documento" id="68CC24BE-B09F-CD74-E6F1-7CF05A41FE05">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 05:21:14 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_documento" id="4BF3F278-8659-0232-14AF-BC1C25868868">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 05:21:15 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="medio_de_contacto" id="CBEF44DC-D6D6-90A8-146F-7D0733851A08">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:16:27 UTC</createdTime>
@@ -90,6 +123,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
+<listOfValues>
+<valueDef value="BEAPER" description=""/>
+<valueDef value="CEL" description=""/>
+<valueDef value="TEL" description=""/>
+</listOfValues>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="contenido" id="4D700BD5-898C-7848-0501-CB67EEA1BC10">
@@ -114,9 +152,10 @@
 <item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
 </engineerTo>
 <referedAttribute>2DCE393D-2A70-78EE-39AA-243DCBFA9EEB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<domain>D2F52CB7-5A60-C2CB-550A-2FDF3D202E3F</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="correo1" id="C7BFEC04-4371-A7B6-D991-6C7C5AA48A19">
@@ -128,11 +167,29 @@
 <item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
 </engineerTo>
 <referedAttribute>DA850739-F679-F094-AE6A-F8FDF2D1AD5F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<domain>D2F52CB7-5A60-C2CB-550A-2FDF3D202E3F</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CBD48AFC-A3C7-0BBA-8DDE-C795256DABCC" name="PQRS PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 05:23:48 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D142555-3572-DB5C-2D8B-5F9635EABE87</attributeRef>
+<attributeRef>DA70997A-6DBE-D980-BD8F-0FB09363E3C1</attributeRef>
+<attributeRef>68CC24BE-B09F-CD74-E6F1-7CF05A41FE05</attributeRef>
+<attributeRef>4BF3F278-8659-0232-14AF-BC1C25868868</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -3,7 +3,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>1F96C579-2D80-0641-6462-18AC4A28C27F</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -12,18 +12,23 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>2DCE393D-2A70-78EE-39AA-243DCBFA9EEB</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="LIKE(&apos;%@%.%&apos;)
+"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="contrasena" id="79E27211-B386-F884-0114-63F6D490CCC1">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>E14F469A-C4B8-BDED-311A-DE50E33A6495</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -35,11 +40,15 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>2DD5AC32-7143-4461-E0E8-401ECC271997</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="D" description="Demandante"/>
+<valueDef value="O" description="Ofertante"/>
+</listOfValues>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -47,7 +56,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>51CAB718-1E53-DD43-40BA-D07BFB64794B</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -59,7 +68,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>1B1062A9-EFDB-5CD3-38DD-BF884BF3195B</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -71,7 +80,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>E9CE50FE-514A-7600-786A-3C0DF8C5D2E5</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -83,7 +92,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>FDCCF4C9-FAAA-DC13-6990-A0790201FA9E</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -95,29 +104,41 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>F6293E8A-DDAC-D2FA-07AD-1F665AA4D621</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>-90</beginValue>
+<endValue>90</endValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="longitud" id="6BDF7119-DEC3-1363-5669-94B1EC04B10A">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>CFEDBE88-C5A4-36CF-A0DC-E95845F2C7D2</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>-180</beginValue>
+<endValue>180</endValue>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="fecha_nacimiento" id="9C6E0053-EFFD-87D0-C0CC-0A162AEAC662">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>A1B572F4-3A67-3C7B-F8BF-8A7A980615C6</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -128,7 +149,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>7D03A806-5725-1C9D-F8C2-277159835B55</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -140,12 +161,24 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>D2ECC47C-26CF-55D2-9C96-1F364E47ED25</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="F8C14BF2-98B7-3C56-7953-65FB2C182F1B">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:36:31 UTC</createdTime>
+<generatorID>400F7C11-B6B4-D5DD-BAB4-EBB41C7F8042</generatorID>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>56C50A2B-4ACB-DD4C-05F8-0CCB0BDCAA1E</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -154,7 +187,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>297D8B91-5B8B-3516-336A-23B5DD7A01EF</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>

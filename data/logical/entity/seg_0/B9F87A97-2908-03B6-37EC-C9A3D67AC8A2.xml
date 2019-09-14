@@ -15,6 +15,21 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ofertante" id="F0CC0D81-E9C1-F916-1BC2-8731E896FDEC">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:50:45 UTC</createdTime>
+<generatorID>213DB791-4E4D-8E7B-67A1-F7C43325048A</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<referedAttribute>2DCE393D-2A70-78EE-39AA-243DCBFA9EEB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<domain>D2F52CB7-5A60-C2CB-550A-2FDF3D202E3F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="fecha" id="19480E74-D254-35AA-2D69-F16B3C410F31">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:13:35 UTC</createdTime>
@@ -36,7 +51,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<logicalDatatype>LOGDT038</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="hora_fin" id="9BE121E0-40BB-E7AB-5268-7C284F88DD45">
@@ -48,22 +63,27 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="correo" id="F0CC0D81-E9C1-F916-1BC2-8731E896FDEC">
-<createdBy>Usuario</createdBy>
-<createdTime>2019-09-14 03:50:45 UTC</createdTime>
-<generatorID>213DB791-4E4D-8E7B-67A1-F7C43325048A</generatorID>
-<ownerDesignName>data</ownerDesignName>
-<engineerTo>
-<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
-</engineerTo>
-<referedAttribute>2DCE393D-2A70-78EE-39AA-243DCBFA9EEB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT038</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C145F8F9-855F-EA24-8429-98CC098D44DC" name="HORARIO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 05:20:17 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F0CC0D81-E9C1-F916-1BC2-8731E896FDEC</attributeRef>
+<attributeRef>F0CC0D81-E9C1-F916-1BC2-8731E896FDEC</attributeRef>
+<attributeRef>19480E74-D254-35AA-2D69-F16B3C410F31</attributeRef>
+<attributeRef>9BE121E0-40BB-E7AB-5268-7C284F88DD45</attributeRef>
+<attributeRef>DEBD054C-96CE-E809-AB90-6EA61EB179A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -3,7 +3,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>B9F87A97-2908-03B6-37EC-C9A3D67AC8A2</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -12,7 +12,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>19480E74-D254-35AA-2D69-F16B3C410F31</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -23,10 +23,10 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>DEBD054C-96CE-E809-AB90-6EA61EB179A4</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<logicalDatatype>LOGDT038</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -34,21 +34,25 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>9BE121E0-40BB-E7AB-5268-7C284F88DD45</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<logicalDatatype>LOGDT038</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OFERTANTE_correo" id="471D8F86-0E31-9341-5A73-C2336BD71E95">
+<Column name="ofertante" id="471D8F86-0E31-9341-5A73-C2336BD71E95">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>F0CC0D81-E9C1-F916-1BC2-8731E896FDEC</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="LIKE(&apos;%@%.%&apos;)"/>
+</checkConstraint>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -58,11 +62,26 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0F65480C-E1FE-D3A7-7CC4-F63A697DA95A" name="HORARIO_OFERTANTE_FK">
+<ind_PK_UK id="4FF4913B-9F06-BEEF-FB70-7F3C6D709100" name="HORARIO_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 05:28:07 UTC</createdTime>
+<generatorID>C145F8F9-855F-EA24-8429-98CC098D44DC</generatorID>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="471D8F86-0E31-9341-5A73-C2336BD71E95"/>
+<colUsage columnID="D2A1AE14-599E-7B38-9E9A-36AC16851E75"/>
+<colUsage columnID="754E9E73-35DF-C735-443C-1950BE8B7558"/>
+<colUsage columnID="0789E51C-7C79-45AF-CA5C-EF180182DCC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F65480C-E1FE-D3A7-7CC4-F63A697DA95A" name="Relation_10">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>213DB791-4E4D-8E7B-67A1-F7C43325048A</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

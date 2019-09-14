@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A6EC61F-5FE0-74D9-57B4-F4370389B240" containerWithKeyObject="4A42066C-3D25-EDD9-5E0B-263551ED9055" localFKIndex="33F481B3-3AD9-D11A-D816-47D1C6F09548" name="HORARIOS_DE_ATENCION_OFERTA_DE_SERVICIO_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A6EC61F-5FE0-74D9-57B4-F4370389B240" containerWithKeyObject="4A42066C-3D25-EDD9-5E0B-263551ED9055" localFKIndex="33F481B3-3AD9-D11A-D816-47D1C6F09548" name="Relation_9">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>B258A507-75E5-81BE-066B-F4110E90C7D8</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <referredTableLongName>OFERTA_DE_SERVICIO</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>93F50E87-38E4-A60E-5946-5B597B90EED6</referredTableID>
 <keyObject>69AE7A61-B1CC-6CDC-D0F7-C435EC040A85</keyObject>
 <referredKeyID>69AE7A61-B1CC-6CDC-D0F7-C435EC040A85</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>nombre_servicio,OFERTANTE_correo</refColNames>
+<refColNames>nombre_servicio,ofertante</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

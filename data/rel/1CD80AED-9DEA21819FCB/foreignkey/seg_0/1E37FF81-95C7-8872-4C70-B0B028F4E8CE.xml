@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E37FF81-95C7-8872-4C70-B0B028F4E8CE" containerWithKeyObject="7AA3646C-6E92-02F4-60BF-82CBD755192C" localFKIndex="5F0FB7E4-7502-73F7-8375-90ABAD8816F9" name="CONTRATO_DEMANDANTE_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E37FF81-95C7-8872-4C70-B0B028F4E8CE" containerWithKeyObject="7AA3646C-6E92-02F4-60BF-82CBD755192C" localFKIndex="5F0FB7E4-7502-73F7-8375-90ABAD8816F9" name="Relation_5">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>EC1F12DE-F92F-968F-0FB1-4E0E67ECD206</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <referredTableLongName>DEMANDANTE</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>7BDEEFC4-B4C8-3F69-A3E1-FF1D746BAD23</referredTableID>

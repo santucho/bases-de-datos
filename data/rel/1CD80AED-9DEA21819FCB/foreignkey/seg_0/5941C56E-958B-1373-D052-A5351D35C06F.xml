@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5941C56E-958B-1373-D052-A5351D35C06F" containerWithKeyObject="93F50E87-38E4-A60E-5946-5B597B90EED6" localFKIndex="43C49445-77EA-0834-DA16-34E283185E14" name="OFERTA_DE_SERVICIO_OFERTANTE_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5941C56E-958B-1373-D052-A5351D35C06F" containerWithKeyObject="93F50E87-38E4-A60E-5946-5B597B90EED6" localFKIndex="43C49445-77EA-0834-DA16-34E283185E14" name="Relation_2">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>4A91A4ED-7EE8-2A89-654F-55C6353033E0</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <referredTableLongName>OFERTANTE</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>33117A14-F7A6-7F0C-B0E7-C91B5E394BA9</referredTableID>

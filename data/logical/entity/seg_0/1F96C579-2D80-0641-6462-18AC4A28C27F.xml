@@ -22,10 +22,11 @@
 <engineerTo>
 <item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<domain>D2F52CB7-5A60-C2CB-550A-2FDF3D202E3F</domain>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="contrasena" id="E14F469A-C4B8-BDED-311A-DE50E33A6495">
 <createdBy>Usuario</createdBy>
@@ -51,6 +52,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="D" description="Demandante"/>
+<valueDef value="O" description="Ofertante"/>
+</listOfValues>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="tipo_documento" id="51CAB718-1E53-DD43-40BA-D07BFB64794B">
@@ -116,6 +121,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>-90</beginValue>
+<endValue>90</endValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="longitud" id="CFEDBE88-C5A4-36CF-A0DC-E95845F2C7D2">
 <createdBy>Usuario</createdBy>
@@ -128,6 +139,25 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>-180</beginValue>
+<endValue>180</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="ciudad" id="400F7C11-B6B4-D5DD-BAB4-EBB41C7F8042">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:23:46 UTC</createdTime>
+<ownerDesignName>data</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>56C50A2B-4ACB-DD4C-05F8-0CCB0BDCAA1E</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_nacimiento" id="A1B572F4-3A67-3C7B-F8BF-8A7A980615C6">
 <createdBy>Usuario</createdBy>

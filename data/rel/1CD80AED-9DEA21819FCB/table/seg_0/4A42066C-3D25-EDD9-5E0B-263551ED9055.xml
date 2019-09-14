@@ -3,7 +3,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>5610A4A4-4EED-6506-7AAF-536B20D39364</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -12,7 +12,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>66B55ED5-53CE-E883-2BF7-881DFDB733AA</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
@@ -24,10 +24,10 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>176326A0-CC2C-ECDF-C401-7CBBFF3E3199</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<logicalDatatype>LOGDT038</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -35,18 +35,18 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>669AAC61-0DD9-D6EA-234F-1C0EFCD636CB</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<logicalDatatype>LOGDT038</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OFERTA_DE_SERVICIO_nombre_servicio" id="AC20483F-29DA-5901-C2A6-9EBAA9EA0366">
+<Column name="nombre_servicio" id="AC20483F-29DA-5901-C2A6-9EBAA9EA0366">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>3B2AA5EA-46A2-A14E-4A34-BF18159BACAF</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -58,14 +58,18 @@
 <colAssociation fkAssociation="9A6EC61F-5FE0-74D9-57B4-F4370389B240" referredColumn="D0103C5E-408A-A66C-4E5A-094E60CE787D"/>
 </associations>
 </Column>
-<Column name="OFERTA_DE_SERVICIO_OFERTANTE_correo" id="8961C566-0C76-9469-CCD8-8D5A17C0667E">
+<Column name="ofertante" id="8961C566-0C76-9469-CCD8-8D5A17C0667E">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>BEE3CA71-4174-3D7F-FBE2-8654EAC01D24</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="LIKE(&apos;%@%.%&apos;)"/>
+</checkConstraint>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -75,11 +79,11 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="33F481B3-3AD9-D11A-D816-47D1C6F09548" name="HORARIOS_DE_ATENCION_OFERTA_DE_SERVICIO_FK">
+<ind_PK_UK id="33F481B3-3AD9-D11A-D816-47D1C6F09548" name="Relation_9">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>B258A507-75E5-81BE-066B-F4110E90C7D8</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

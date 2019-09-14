@@ -15,6 +15,21 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="correo" id="7F4DAAFB-FE34-AAF9-E4E6-E491CBDA51CE">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:51:40 UTC</createdTime>
+<generatorID>582B789A-F330-F0A7-0F6C-58685317BF94</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<referedAttribute>2DCE393D-2A70-78EE-39AA-243DCBFA9EEB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<domain>D2F52CB7-5A60-C2CB-550A-2FDF3D202E3F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="tipo" id="2E5F7E9E-D193-44E7-573E-8C2FF85C5981">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:02:33 UTC</createdTime>
@@ -26,6 +41,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="BEEPER" description="Buscapersonas"/>
+<valueDef value="CEL" description="Celular"/>
+<valueDef value="TEL" description="Telefono"/>
+</listOfValues>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="numero" id="F0DE5C44-186D-4386-29F9-1AA4C73A6D92">
@@ -41,20 +61,6 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="correo" id="7F4DAAFB-FE34-AAF9-E4E6-E491CBDA51CE">
-<createdBy>Usuario</createdBy>
-<createdTime>2019-09-14 03:51:40 UTC</createdTime>
-<generatorID>582B789A-F330-F0A7-0F6C-58685317BF94</generatorID>
-<ownerDesignName>data</ownerDesignName>
-<engineerTo>
-<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
-</engineerTo>
-<referedAttribute>2DCE393D-2A70-78EE-39AA-243DCBFA9EEB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B5427272-73AC-1E46-572E-EC8B192B374F" name="CONTACTO PK">
@@ -69,6 +75,7 @@
 <usedAttributes>
 <attributeRef>2E5F7E9E-D193-44E7-573E-8C2FF85C5981</attributeRef>
 <attributeRef>F0DE5C44-186D-4386-29F9-1AA4C73A6D92</attributeRef>
+<attributeRef>7F4DAAFB-FE34-AAF9-E4E6-E491CBDA51CE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

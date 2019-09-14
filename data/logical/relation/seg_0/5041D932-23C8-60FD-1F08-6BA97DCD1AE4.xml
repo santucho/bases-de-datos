@@ -7,7 +7,7 @@
 <item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
 </engineerTo>
 <sourcePk>815BA665-3B72-934C-001A-7F8D79C50AE0</sourcePk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <nameOnSource>genera</nameOnSource>
 <nameOnTarget>pertenece</nameOnTarget>
 <optionalSource>true</optionalSource>
