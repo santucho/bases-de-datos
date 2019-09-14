@@ -3,7 +3,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>8C77C836-ED5D-6CF8-E41F-B0A26E72B052</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -12,7 +12,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>B78A89AE-2865-FC51-C5E5-ED5A8CC6D60B</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -24,18 +24,24 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>FFE6F2E0-BA46-3A48-2169-BC8BA01E7666</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<listOfValues>
+<valueDef value="ENTRETENIMIENTO" description=""/>
+<valueDef value="VIDA Y SALUD" description=""/>
+<valueDef value="VIVIENDA Y MANTENIMIENTO" description=""/>
+</listOfValues>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="precio" id="13182183-DC5B-EF82-BD62-7E7C02D82485">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>58E14E8E-9B7B-40C4-8C9C-4EED1B4F603D</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -46,32 +52,46 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>8D90DB3E-3D9D-1ECC-4E7E-A9B80994D0B5</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>-90</beginValue>
+<endValue>90</endValue>
+<description>latitud</description>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="longitud" id="4627553B-CE03-E194-7189-4AC3D4FE9DD8">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>3BFFCB0A-BBE3-FD90-9B07-A0368C5FDB6B</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>-180</beginValue>
+<endValue>180</endValue>
+<description>longitud</description>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="ciudad" id="D1605212-6031-609E-4D66-03B789540179">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>40F3AF67-DF30-1888-26B9-B7437D68BAC1</generatorID>
-<ownerDesignName>data</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<domain>56C50A2B-4ACB-DD4C-05F8-0CCB0BDCAA1E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -79,21 +99,26 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>B55AB64F-3870-3B1A-FCC1-80409A81227A</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OFERTANTE_correo" id="CE246AA6-2415-A787-C487-8FDBEC7796C3">
+<Column name="ofertante" id="CE246AA6-2415-A787-C487-8FDBEC7796C3">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>9D4C6E1F-888E-935A-3D28-E961B0A06456</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="LIKE(&apos;%@%.%&apos;)"/>
+</checkConstraint>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -107,7 +132,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>815BA665-3B72-934C-001A-7F8D79C50AE0</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -116,11 +141,11 @@
 <colUsage columnID="CE246AA6-2415-A787-C487-8FDBEC7796C3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="43C49445-77EA-0834-DA16-34E283185E14" name="OFERTA_DE_SERVICIO_OFERTANTE_FK">
+<ind_PK_UK id="43C49445-77EA-0834-DA16-34E283185E14" name="Relation_2">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>4A91A4ED-7EE8-2A89-654F-55C6353033E0</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

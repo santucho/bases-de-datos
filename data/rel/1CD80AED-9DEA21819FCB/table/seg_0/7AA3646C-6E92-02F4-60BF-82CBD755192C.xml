@@ -3,7 +3,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>7917DFF7-F9BD-A9AE-2A4D-F3104D55CFC8</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -12,11 +12,16 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>C6F46397-36CE-6FB5-DDCA-71D44F444DB3</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="HORA TRABAJADA" description=""/>
+<valueDef value="OBRA O LABOR" description=""/>
+<valueDef value="SALARIAL" description=""/>
+</listOfValues>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -24,11 +29,16 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>5F57EE0C-810B-65B0-92C6-838A0C3D98C6</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="HORARIO DEFINIDO" description=""/>
+<valueDef value="OCASIONAL" description=""/>
+<valueDef value="SERVICIO UNICO" description=""/>
+</listOfValues>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -36,18 +46,18 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>3E385B54-482B-BBD8-D071-CD4A57875579</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fecha_inicion" id="8CB9606E-433F-6492-0CF3-24F54D458F7D">
+<Column name="fecha_inicio" id="8CB9606E-433F-6492-0CF3-24F54D458F7D">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>F5EC80B8-659C-89E4-6661-0802AD2E5924</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -58,7 +68,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>AAD4E49C-1A37-32D1-D894-90AEFF58A575</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -69,7 +79,7 @@
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 03:27:01 UTC</createdTime>
 <generatorID>B51042F1-5941-A532-4855-9305C538CEE7</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -77,11 +87,11 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OFERTA_DE_SERVICIO_nombre_servicio" id="57B96D82-A0E2-AE23-79C4-16D8F889C720">
+<Column name="nombre_servicio" id="57B96D82-A0E2-AE23-79C4-16D8F889C720">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>F76FA691-15A5-6A88-5FFB-635C17B5B843</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -93,14 +103,18 @@
 <colAssociation fkAssociation="F00DDED0-3B74-8CFF-E93A-2DC62E67ACB3" referredColumn="D0103C5E-408A-A66C-4E5A-094E60CE787D"/>
 </associations>
 </Column>
-<Column name="OFERTA_DE_SERVICIO_OFERTANTE_correo" id="7C18B379-F697-86BE-E5CD-18F5789CCB74">
+<Column name="ofertante" id="7C18B379-F697-86BE-E5CD-18F5789CCB74">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>1717FD77-5286-A508-94B5-D0C565B365B3</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="LIKE(&apos;%@%.%&apos;)"/>
+</checkConstraint>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -108,13 +122,56 @@
 <colAssociation fkAssociation="F00DDED0-3B74-8CFF-E93A-2DC62E67ACB3" referredColumn="CE246AA6-2415-A787-C487-8FDBEC7796C3"/>
 </associations>
 </Column>
+<Column name="demandante" id="B55BC4EA-C0E2-C6FE-E796-25915F55D173">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:36:31 UTC</createdTime>
+<generatorID>4849C5D2-B9AF-DB9D-41FD-93DD042DD92C</generatorID>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D2F52CB7-5A60-C2CB-550A-2FDF3D202E3F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_1" id="95E83D0A-F700-DEF9-5AE5-10AB34992220">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:36:31 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E37FF81-95C7-8872-4C70-B0B028F4E8CE" referredColumn="74D91B51-6E45-962D-CB25-C6ED5CA28E42"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="84B66915-9DAE-732E-B855-5715114911A9" name="CONTRATO_OFERTA_DE_SERVICIO_FK">
+<ind_PK_UK id="1665F2F9-D772-E20C-FAE9-410CEFDE2B47" name="CONTRATO_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 05:28:06 UTC</createdTime>
+<generatorID>ECBD375F-3606-AD02-84D4-AD0A16391126</generatorID>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B55BC4EA-C0E2-C6FE-E796-25915F55D173"/>
+<colUsage columnID="7C18B379-F697-86BE-E5CD-18F5789CCB74"/>
+<colUsage columnID="57B96D82-A0E2-AE23-79C4-16D8F889C720"/>
+<colUsage columnID="8CB9606E-433F-6492-0CF3-24F54D458F7D"/>
+<colUsage columnID="28CE1A73-9C05-5735-B26F-112699FEA9E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84B66915-9DAE-732E-B855-5715114911A9" name="Relation_3">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>5041D932-23C8-60FD-1F08-6BA97DCD1AE4</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -122,13 +179,16 @@
 <colUsage columnID="7C18B379-F697-86BE-E5CD-18F5789CCB74"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5F0FB7E4-7502-73F7-8375-90ABAD8816F9" name="CONTRATO_DEMANDANTE_FK">
+<ind_PK_UK id="5F0FB7E4-7502-73F7-8375-90ABAD8816F9" name="Relation_5">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>EC1F12DE-F92F-968F-0FB1-4E0E67ECD206</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95E83D0A-F700-DEF9-5AE5-10AB34992220"/>
+</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

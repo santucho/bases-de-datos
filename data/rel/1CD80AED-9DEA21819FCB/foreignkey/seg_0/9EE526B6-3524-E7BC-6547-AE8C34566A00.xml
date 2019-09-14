@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9EE526B6-3524-E7BC-6547-AE8C34566A00" containerWithKeyObject="B5002E5A-C676-7D91-788E-6A8DFD69EE32" localFKIndex="38048D40-A1ED-B7DC-300F-BE47B70C8DC9" name="PQRS_ADMINISTRADOR_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9EE526B6-3524-E7BC-6547-AE8C34566A00" containerWithKeyObject="B5002E5A-C676-7D91-788E-6A8DFD69EE32" localFKIndex="38048D40-A1ED-B7DC-300F-BE47B70C8DC9" name="Relation_7">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-09-14 04:03:54 UTC</createdTime>
 <generatorID>54336070-8AC7-D493-B2BA-BA0675093222</generatorID>
-<ownerDesignName>data</ownerDesignName>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
 <referredTableLongName>ADMINISTRADOR</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>F6CAEDE1-E952-1FE7-99D3-263A7653ADA9</referredTableID>
