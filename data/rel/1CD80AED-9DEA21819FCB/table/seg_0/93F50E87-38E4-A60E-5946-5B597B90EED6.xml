@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93F50E87-38E4-A60E-5946-5B597B90EED6" name="OFERTA_DE_SERVICIO">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>8C77C836-ED5D-6CF8-E41F-B0A26E72B052</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre_servicio" id="D0103C5E-408A-A66C-4E5A-094E60CE787D">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>B78A89AE-2865-FC51-C5E5-ED5A8CC6D60B</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_servicio" id="C63B6403-1331-10B3-53D6-0C845BD1ABF4">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>FFE6F2E0-BA46-3A48-2169-BC8BA01E7666</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="13182183-DC5B-EF82-BD62-7E7C02D82485">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>58E14E8E-9B7B-40C4-8C9C-4EED1B4F603D</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitud" id="9A9748B7-C1F0-95DE-587F-0F66AA71C127">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>8D90DB3E-3D9D-1ECC-4E7E-A9B80994D0B5</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitud" id="4627553B-CE03-E194-7189-4AC3D4FE9DD8">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>3BFFCB0A-BBE3-FD90-9B07-A0368C5FDB6B</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="D1605212-6031-609E-4D66-03B789540179">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>40F3AF67-DF30-1888-26B9-B7437D68BAC1</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="40DF7BBC-0F35-01CA-8F45-0A571C7A4CAF">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>B55AB64F-3870-3B1A-FCC1-80409A81227A</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFERTANTE_correo" id="CE246AA6-2415-A787-C487-8FDBEC7796C3">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>9D4C6E1F-888E-935A-3D28-E961B0A06456</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5941C56E-958B-1373-D052-A5351D35C06F" referredColumn="7B62DB33-66F7-F4F5-A3C3-628600570937"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69AE7A61-B1CC-6CDC-D0F7-C435EC040A85" name="OFERTA_DE_SERVICIO_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>815BA665-3B72-934C-001A-7F8D79C50AE0</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0103C5E-408A-A66C-4E5A-094E60CE787D"/>
+<colUsage columnID="CE246AA6-2415-A787-C487-8FDBEC7796C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43C49445-77EA-0834-DA16-34E283185E14" name="OFERTA_DE_SERVICIO_OFERTANTE_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>4A91A4ED-7EE8-2A89-654F-55C6353033E0</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE246AA6-2415-A787-C487-8FDBEC7796C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

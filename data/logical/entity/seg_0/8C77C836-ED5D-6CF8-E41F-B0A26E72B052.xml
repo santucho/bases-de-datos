@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C77C836-ED5D-6CF8-E41F-B0A26E72B052" name="OFERTA DE SERVICIO">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:04:39 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="correo" id="9D4C6E1F-888E-935A-3D28-E961B0A06456">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:31:10 UTC</createdTime>
+<generatorID>4A91A4ED-7EE8-2A89-654F-55C6353033E0</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<referedAttribute>2DCE393D-2A70-78EE-39AA-243DCBFA9EEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_servicio" id="B78A89AE-2865-FC51-C5E5-ED5A8CC6D60B">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:04:48 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_servicio" id="FFE6F2E0-BA46-3A48-2169-BC8BA01E7666">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:05:13 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="58E14E8E-9B7B-40C4-8C9C-4EED1B4F603D">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:05:25 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitud" id="8D90DB3E-3D9D-1ECC-4E7E-A9B80994D0B5">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:05:34 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitud" id="3BFFCB0A-BBE3-FD90-9B07-A0368C5FDB6B">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:05:41 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="40F3AF67-DF30-1888-26B9-B7437D68BAC1">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:05:52 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="B55AB64F-3870-3B1A-FCC1-80409A81227A">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:06:02 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="815BA665-3B72-934C-001A-7F8D79C50AE0" name="OFERTA DE SERVICIO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:05:12 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B78A89AE-2865-FC51-C5E5-ED5A8CC6D60B</attributeRef>
+<attributeRef>9D4C6E1F-888E-935A-3D28-E961B0A06456</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

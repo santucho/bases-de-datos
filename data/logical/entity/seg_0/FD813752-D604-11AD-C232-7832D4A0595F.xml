@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD813752-D604-11AD-C232-7832D4A0595F" name="ADMINISTRADOR">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:03:14 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="correo" id="DA850739-F679-F094-AE6A-F8FDF2D1AD5F">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:03:28 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contrasena" id="917C3CDF-26F4-75EA-9052-3F737C3E585B">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:03:39 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="207A5788-4771-D36A-09FB-4A0919EBFF17" name="ADMINISTRADOR PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:03:51 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DA850739-F679-F094-AE6A-F8FDF2D1AD5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

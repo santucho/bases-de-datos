@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A42066C-3D25-EDD9-5E0B-263551ED9055" name="HORARIOS_DE_ATENCION">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>5610A4A4-4EED-6506-7AAF-536B20D39364</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dia" id="F75D222D-8F27-A457-2748-56BA3D34A68E">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>66B55ED5-53CE-E883-2BF7-881DFDB733AA</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_inicio" id="244CCD86-D985-C786-37B0-6024EA818C1B">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>176326A0-CC2C-ECDF-C401-7CBBFF3E3199</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_fin" id="07A0A3C4-C228-86EC-EC90-08B08BA7F41F">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>669AAC61-0DD9-D6EA-234F-1C0EFCD636CB</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFERTA_DE_SERVICIO_nombre_servicio" id="AC20483F-29DA-5901-C2A6-9EBAA9EA0366">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>3B2AA5EA-46A2-A14E-4A34-BF18159BACAF</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A6EC61F-5FE0-74D9-57B4-F4370389B240" referredColumn="D0103C5E-408A-A66C-4E5A-094E60CE787D"/>
+</associations>
+</Column>
+<Column name="OFERTA_DE_SERVICIO_OFERTANTE_correo" id="8961C566-0C76-9469-CCD8-8D5A17C0667E">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>BEE3CA71-4174-3D7F-FBE2-8654EAC01D24</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A6EC61F-5FE0-74D9-57B4-F4370389B240" referredColumn="CE246AA6-2415-A787-C487-8FDBEC7796C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33F481B3-3AD9-D11A-D816-47D1C6F09548" name="HORARIOS_DE_ATENCION_OFERTA_DE_SERVICIO_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>B258A507-75E5-81BE-066B-F4110E90C7D8</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC20483F-29DA-5901-C2A6-9EBAA9EA0366"/>
+<colUsage columnID="8961C566-0C76-9469-CCD8-8D5A17C0667E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

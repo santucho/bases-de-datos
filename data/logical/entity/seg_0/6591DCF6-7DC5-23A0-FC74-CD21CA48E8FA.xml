@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6591DCF6-7DC5-23A0-FC74-CD21CA48E8FA" name="CONTACTO">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:02:22 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo" id="2E5F7E9E-D193-44E7-573E-8C2FF85C5981">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:02:33 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="F0DE5C44-186D-4386-29F9-1AA4C73A6D92">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:02:48 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="7F4DAAFB-FE34-AAF9-E4E6-E491CBDA51CE">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:51:40 UTC</createdTime>
+<generatorID>582B789A-F330-F0A7-0F6C-58685317BF94</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<referedAttribute>2DCE393D-2A70-78EE-39AA-243DCBFA9EEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5427272-73AC-1E46-572E-EC8B192B374F" name="CONTACTO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:02:47 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2E5F7E9E-D193-44E7-573E-8C2FF85C5981</attributeRef>
+<attributeRef>F0DE5C44-186D-4386-29F9-1AA4C73A6D92</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

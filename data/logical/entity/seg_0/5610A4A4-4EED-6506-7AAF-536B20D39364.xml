@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5610A4A4-4EED-6506-7AAF-536B20D39364" name="HORARIOS DE ATENCION">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:11:51 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dia" id="66B55ED5-53CE-E883-2BF7-881DFDB733AA">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:12:06 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_inicio" id="176326A0-CC2C-ECDF-C401-7CBBFF3E3199">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:12:39 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_fin" id="669AAC61-0DD9-D6EA-234F-1C0EFCD636CB">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:12:53 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_servicio" id="3B2AA5EA-46A2-A14E-4A34-BF18159BACAF">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:43:11 UTC</createdTime>
+<generatorID>B258A507-75E5-81BE-066B-F4110E90C7D8</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<referedAttribute>B78A89AE-2865-FC51-C5E5-ED5A8CC6D60B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="BEE3CA71-4174-3D7F-FBE2-8654EAC01D24">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:43:11 UTC</createdTime>
+<generatorID>B258A507-75E5-81BE-066B-F4110E90C7D8</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<referedAttribute>9D4C6E1F-888E-935A-3D28-E961B0A06456</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

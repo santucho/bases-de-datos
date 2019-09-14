@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC7FF569-4170-BF0A-442E-4A3FDCAC0AF8" name="CONOCIMIENTO">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:08:30 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nivel_conocimiento" id="CA33C39C-3A0F-B2BD-42AB-0EA29FDB3DE4">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:09:19 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="definicion" id="B562949E-7F23-EDE7-346C-9919261D92DF">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:09:39 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_servicio" id="89E5419E-3678-E11F-6C86-1F41E8BCDE76">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:41:54 UTC</createdTime>
+<generatorID>2F2ED1B1-B9FB-9895-DCFB-E266A1679204</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<referedAttribute>B78A89AE-2865-FC51-C5E5-ED5A8CC6D60B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="B83C2020-A845-0BDF-200C-823B89AD0641">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:41:54 UTC</createdTime>
+<generatorID>2F2ED1B1-B9FB-9895-DCFB-E266A1679204</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="true"/>
+</engineerTo>
+<referedAttribute>9D4C6E1F-888E-935A-3D28-E961B0A06456</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2239577-9D05-08B9-534D-C843D7A37C14" name="CONOCIMIENTO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:09:37 UTC</createdTime>
+<ownerDesignName>B.B. de D.D.</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1CD80AED-4662-5F4B-3B68-9DEA21819FCB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA33C39C-3A0F-B2BD-42AB-0EA29FDB3DE4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

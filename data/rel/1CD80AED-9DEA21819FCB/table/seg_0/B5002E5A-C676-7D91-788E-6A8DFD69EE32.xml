@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5002E5A-C676-7D91-788E-6A8DFD69EE32" name="PQRS">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>E6982F61-94AD-E03E-D45E-3CBFAF6C1137</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo" id="219BD3CC-A2D4-6C75-55E3-17024ED7893F">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>0D142555-3572-DB5C-2D8B-5F9635EABE87</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asunto" id="E5D18BD6-5EB3-99BE-6183-6E219B9F0A1A">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>DA70997A-6DBE-D980-BD8F-0FB09363E3C1</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="9AAE0294-2C9D-296C-5A04-560E6D5A73E2">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>D6BE8F4E-2404-5DB8-20DC-CA01E4302D75</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="F2FC2134-7450-0CAE-EF76-2397BDB519EB">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>2059BD30-6840-FA76-43E1-454FDB7D1281</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="9B5BEA20-416E-B6B6-4441-83991B2FDCA0">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>1781E5FA-4EA8-6539-D047-5FA206DEA273</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medio_de_contacto" id="E80D9517-E662-9365-BBF1-1EA7DDB7688C">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>CBEF44DC-D6D6-90A8-146F-7D0733851A08</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contenido" id="DE7D8E29-AF69-1C03-63F1-534E34F13EF3">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>4D700BD5-898C-7848-0501-CB67EEA1BC10</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_correo" id="A9BDC425-558A-DE47-50A4-3AAFDF4CF7AD">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>74DBB873-B2E6-185A-CC27-FB72385E2046</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4338523-CB03-C020-CCD3-71462AA71DFD" referredColumn="E173192C-16A8-A13A-33BF-E37BED8528CA"/>
+</associations>
+</Column>
+<Column name="ADMINISTRADOR_correo" id="E785F45F-A9DB-7AB7-D846-961AE9C255A5">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>C7BFEC04-4371-A7B6-D991-6C7C5AA48A19</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9EE526B6-3524-E7BC-6547-AE8C34566A00" referredColumn="5BB16CDB-A867-504B-C0AF-408C04FCF6D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B42B598-2C85-030E-D0D8-088A8916E2CF" name="PQRS_USUARIO_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>94D3C02E-22A0-3E6E-F67E-06B6F1D7B29D</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9BDC425-558A-DE47-50A4-3AAFDF4CF7AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38048D40-A1ED-B7DC-300F-BE47B70C8DC9" name="PQRS_ADMINISTRADOR_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>54336070-8AC7-D493-B2BA-BA0675093222</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E785F45F-A9DB-7AB7-D846-961AE9C255A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

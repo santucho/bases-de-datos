@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AA3646C-6E92-02F4-60BF-82CBD755192C" name="CONTRATO">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>7917DFF7-F9BD-A9AE-2A4D-F3104D55CFC8</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="modo_pago" id="961D87E1-2585-5A76-0E40-4ECB83B9E42B">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>C6F46397-36CE-6FB5-DDCA-71D44F444DB3</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="frecuencia" id="8A32A468-0A8D-1AE5-E396-8FF8BC9E1264">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>5F57EE0C-810B-65B0-92C6-838A0C3D98C6</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="B21E202F-0B81-668A-2830-CE2A52CB54E6">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>3E385B54-482B-BBD8-D071-CD4A57875579</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicion" id="8CB9606E-433F-6492-0CF3-24F54D458F7D">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>F5EC80B8-659C-89E4-6661-0802AD2E5924</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="28CE1A73-9C05-5735-B26F-112699FEA9E0">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>AAD4E49C-1A37-32D1-D894-90AEFF58A575</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="95707D6B-BD7C-0185-D19C-4DBCC52330B7">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>B51042F1-5941-A532-4855-9305C538CEE7</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFERTA_DE_SERVICIO_nombre_servicio" id="57B96D82-A0E2-AE23-79C4-16D8F889C720">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>F76FA691-15A5-6A88-5FFB-635C17B5B843</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F00DDED0-3B74-8CFF-E93A-2DC62E67ACB3" referredColumn="D0103C5E-408A-A66C-4E5A-094E60CE787D"/>
+</associations>
+</Column>
+<Column name="OFERTA_DE_SERVICIO_OFERTANTE_correo" id="7C18B379-F697-86BE-E5CD-18F5789CCB74">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>1717FD77-5286-A508-94B5-D0C565B365B3</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F00DDED0-3B74-8CFF-E93A-2DC62E67ACB3" referredColumn="CE246AA6-2415-A787-C487-8FDBEC7796C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84B66915-9DAE-732E-B855-5715114911A9" name="CONTRATO_OFERTA_DE_SERVICIO_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>5041D932-23C8-60FD-1F08-6BA97DCD1AE4</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57B96D82-A0E2-AE23-79C4-16D8F889C720"/>
+<colUsage columnID="7C18B379-F697-86BE-E5CD-18F5789CCB74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F0FB7E4-7502-73F7-8375-90ABAD8816F9" name="CONTRATO_DEMANDANTE_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>EC1F12DE-F92F-968F-0FB1-4E0E67ECD206</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

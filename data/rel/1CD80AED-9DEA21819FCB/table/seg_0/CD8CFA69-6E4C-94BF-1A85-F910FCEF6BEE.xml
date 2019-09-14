@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD8CFA69-6E4C-94BF-1A85-F910FCEF6BEE" name="CONTACTO">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>6591DCF6-7DC5-23A0-FC74-CD21CA48E8FA</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo" id="72FFE166-B6CA-AC09-FA1E-98DD8484EA50">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>2E5F7E9E-D193-44E7-573E-8C2FF85C5981</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="8601E187-F4D4-C1CA-C880-92CF740FFAD6">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>F0DE5C44-186D-4386-29F9-1AA4C73A6D92</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_correo" id="93045EE6-9081-4D9A-2388-E6A2F2A439A6">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>7F4DAAFB-FE34-AAF9-E4E6-E491CBDA51CE</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C647502C-23FC-F2D5-BE54-E45EC0146BD3" referredColumn="E173192C-16A8-A13A-33BF-E37BED8528CA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E783F266-7AF0-D74C-615A-3BB75B6598BD" name="CONTACTO_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 03:27:01 UTC</createdTime>
+<generatorID>B5427272-73AC-1E46-572E-EC8B192B374F</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72FFE166-B6CA-AC09-FA1E-98DD8484EA50"/>
+<colUsage columnID="8601E187-F4D4-C1CA-C880-92CF740FFAD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65ABA388-A9DB-71EC-360A-C81B51A7F67E" name="CONTACTO_USUARIO_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-09-14 04:03:54 UTC</createdTime>
+<generatorID>582B789A-F330-F0A7-0F6C-58685317BF94</generatorID>
+<ownerDesignName>data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93045EE6-9081-4D9A-2388-E6A2F2A439A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
